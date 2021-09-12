@@ -3,11 +3,11 @@
 public class Restaurant
 {
     public const int MaxMenuItemsInProfessionalPlan = 10;
-    
-    private readonly List<RestaurantMenuItem> _menuItems = new ();
 
-    public Guid Id {  get; set; }
-    public string Name {  get; set; }
+    private readonly List<RestaurantMenuItem> _menuItems = new();
+
+    public Guid Id { get; set; }
+    public string Name { get; set; }
     public Address Address { get; set; }
     public PlanType Plan { get; }
 

@@ -1,5 +1,7 @@
 # Using minimal apis in production
 
+[![Build and test](https://github.com/fbeltrao/minimal-apis-in-production/actions/workflows/build_and_test.yml/badge.svg)](https://github.com/fbeltrao/minimal-apis-in-production/actions/workflows/build_and_test.yml)
+
 This repository evaluates using ASP.NET Core minimal APIs in production in an opinionated fashion.
 The definitions here are based on practice building and APIs with .NET, and don't fulfill all requirements. Think of it as an starting point.
 

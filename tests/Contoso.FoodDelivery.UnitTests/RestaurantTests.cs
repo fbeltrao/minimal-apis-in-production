@@ -17,7 +17,7 @@ public class RestaurantTests
     private Restaurant CreateRestaurant(PlanType? planType = null)
     {
         planType ??= _faker.PickRandom<PlanType>();
-        var address = CreateAddress(); 
+        var address = CreateAddress();
         return new Restaurant(_faker.Name.FirstName(), planType.Value, address);
     }
 
@@ -65,7 +65,7 @@ public class RestaurantTests
     public void When_Adding_11th_Menu_Item_In_Professional_Plan_Should_Throw()
     {
         var sut = CreateRestaurant(PlanType.Professional);
-        for (var i=0; i < Restaurant.MaxMenuItemsInProfessionalPlan; i++)
+        for (var i = 0; i < Restaurant.MaxMenuItemsInProfessionalPlan; i++)
         {
             sut.AddMenuItem(_faker.Name.FirstName(), _faker.Random.Words());
         }

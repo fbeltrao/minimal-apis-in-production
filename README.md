@@ -8,7 +8,7 @@ The definitions here are based on practice building and APIs with .NET, and don'
 ### Abstraction / Decoupling
 
 - [ ] Model validation using FluentValidation
-- [ ] Business logic is clean from ASP.NET or API specific implementations
+- [ ] Business logic is clean from ASP.NET or API specific details
 
 ### Response customization
 
@@ -24,6 +24,7 @@ The definitions here are based on practice building and APIs with .NET, and don'
 ### Discoverabily
 
 - [ ] API is discoverable with documentation
+- [ ] Documentation is provided by code
 
 ### Testability
 
